@@ -1,0 +1,56 @@
+@charset "utf-8";
+.body{
+	display: -webkit-flex;
+    display: flex;
+	-webkit-flex-direction: column;
+    flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	height: auto;
+}
+.webname{
+	font-family:"黑体", "微软雅黑";
+	font-size: 1.2em;
+	margin-top: 2em;
+
+	align-self:flex-start
+}
+.markframe {
+	display: -webkit-flex;
+    display: flex;
+	-webkit-flex-direction: column;
+    flex-direction: column;
+	width: 800px;
+    height: auto;
+	background-color: currentColor;
+}
+.div-list {
+	display: -webkit-flex;
+    display: flex;
+	-webkit-flex-direction: row;
+    flex-direction: row;
+	flex-wrap:wrap;
+	
+}
+.listtittle{
+	color: #FFD8AD;
+	margin-left: 1.5em;
+	margin-top: 1em;
+	margin-bottom: 0.2em;
+}
+.div-cell{
+	width: 8.2em;
+	height: 1.5em;
+	margin-left: 1.5em;
+	margin-bottom: 0.5em;
+	background-color: #00506B;
+	display: inline-flex;
+	justify-content: center;
+}
+.url{
+	color: aliceblue;
+	text-decoration:none;
+	padding-left: 1em;
+	padding-right: 1em;
+
+}
